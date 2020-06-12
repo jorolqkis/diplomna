@@ -1,0 +1,65 @@
+<div class="nav">
+    <div class="svg" routerLink="/home">
+
+    </div>
+
+
+    <div class="buttons">
+        <button class="buttoni" mat-raised-button routerLink="/home">Home</button>
+        <button class="buttoni" mat-raised-button routerLink="/adopt">Our pets</button>
+        <button class="buttoni" mat-raised-button routerLink="/donate">Donate</button>
+        <button class="buttoni" mat-raised-button routerLink="/about">About</button>
+        <button class="buttoni" mat-raised-button routerLink="/contact">Contact us</button>
+        <button class="buttoni" mat-raised-button routerLink="/shelters">Shelters</button>
+    </div>
+</div>
+
+<div class="">
+    <router-outlet></router-outlet>
+</div>
+
+<div class="footer">
+
+    <div class="footer1">
+        <h1>Connect with us</h1>
+        <div>
+            <p>Facebook
+                <img src="http://www.myiconfinder.com/uploads/iconsets/256-256-671dcbd218ad978e77115f7e3475e454-facebook.png" alt="">
+            </p>
+        </div>
+        <div>
+            <p>Instagram <img src="https://www.zeusmarketing.ca/wp-content/uploads/2018/12/instagram.png" alt=""></p>
+        </div>
+        <div>
+            <p>Twitter
+                <img src="https://i1.wp.com/marsfallpodcast.com/wp-content/uploads/2017/09/Twitter-Download-PNG.png?ssl=1" alt="">
+            </p>
+        </div>
+        <div>
+            <p>YouTuBe
+                <img src="https://i.pinimg.com/originals/44/ee/90/44ee903dfbcd946fd5756a3ea824de5d.png" alt="">
+            </p>
+        </div>
+    </div>
+    <div class="footer2">
+        <h1>Contact us</h1>
+
+        <p>Working hours: 9am - 5pm</p>
+        <p>Phone number: +359 54 340 703</p>
+        <p>Email: paws_shelter@gmail.com</p>
+        <p>Address: 15 "Park Vinitsa" street, Varna</p>
+    </div>
+</div>
+
+<div class="footer3">
+    <a [routerLink]="[ '/home']">Home Page</a>
+    <a [routerLink]="[ '/adopt']">Our pets</a>
+    <a [routerLink]="[ '/donate']">Donate</a>
+    <a [routerLink]="[ '/about']">About us</a>
+    <a [routerLink]="[ '/contact']">Contact us</a>
+
+
+    <a [routerLink]="[ '/sitemap']">Site Map</a>
+    <a [routerLink]="[ '/shelters']">Shelters</a>
+
+</div>
